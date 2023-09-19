@@ -2,11 +2,14 @@ section{
     background-color:rgb(255, 255, 255);
     color: #c0c0c0;
     padding: 1%;
+    margin: 13%;
+    border: 1px solid lightgray;
 }
 h2{
     text-align: center;
     padding: 1%;
     margin: 1%;
+    color: black;
 }
 label{
     color: black;
@@ -30,4 +33,10 @@ footer{
 .button{
     background-color: grey;
     color: black;
+}
+@media(max-width:800px) {
+    section{
+        border: none;
+        margin: 2%;
+    }
 }
